@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@master
     
     - name: Checkout submodules
-      uses: textbook/git-checkout-submodule-action@master
+      uses: chris-short/github-action-git-submodules@master
 
     - name: use Setup-Scheme
       uses: guenchi/setup-scheme@master
@@ -38,7 +38,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Checkout submodules
-      uses: textbook/git-checkout-submodule-action@master
+      uses: chris-short/github-action-git-submodules@master
 
     - name: use Setup-Scheme
       uses: guenchi/setup-scheme@master
