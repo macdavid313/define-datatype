@@ -26,7 +26,7 @@ s1 ;; => (rectangle 2.0 3.0)
 (area s1) ;; => 6.0
 
 (define s2 (circle 3.0))
-s2 ;; => (circle 2.0 3.0)
+s2 ;; => (circle 3.0)
 (shape? s2) ;; =? #t
 (area s2) ;; => 28.274333400000003
 ```
