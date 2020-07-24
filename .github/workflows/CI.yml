@@ -18,10 +18,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
-    
-    - name: Checkout submodules
-      uses: chris-short/github-action-git-submodules@master
+      uses: actions/checkout@main
 
     - name: use Setup-Scheme
       uses: guenchi/setup-scheme@master
@@ -35,10 +32,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
-
-    - name: Checkout submodules
-      uses: chris-short/github-action-git-submodules@master
+      uses: actions/checkout@main
 
     - name: use Setup-Scheme
       uses: guenchi/setup-scheme@master
