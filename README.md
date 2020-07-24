@@ -1,4 +1,6 @@
 # define-datatype
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmacdavid313%2Fdefine-datatype%2Fbadge&style=for-the-badge)](https://actions-badge.atrox.dev/macdavid313/define-datatype/goto)
+
 port of define-datatype from EOPL, code modified from [chenyukang/eopl](https://github.com/chenyukang/eopl/blob/master/libs/define-datatype.scm).
 
 ## Example usage
