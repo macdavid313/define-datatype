@@ -26,7 +26,7 @@ jobs:
         implementation: chez
 
     - run: git submodule update --init
-    - run: chez --libdirs ./:./thunderchez ./tests.ss
+    - run: chez --libdirs ./:./thunderchez --script ./tests.ss
 
   Linux-Chez:
     runs-on: ubuntu-latest
@@ -41,4 +41,4 @@ jobs:
         implementation: chez
 
     - run: git submodule update --init
-    - run: scheme --libdirs ./:./thunderchez ./tests.ss
+    - run: scheme --libdirs ./:./thunderchez --script ./tests.ss
